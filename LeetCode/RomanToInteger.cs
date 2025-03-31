@@ -1,6 +1,6 @@
 using System;
 
-class RomanToInteger
+class Solution
 {
 	public static void Main(string[] args)
 	{
