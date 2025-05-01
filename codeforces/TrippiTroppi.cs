@@ -11,12 +11,12 @@ class TrippiTroppi
             string? str = Console.ReadLine();
             string[] arr = str!.Split().ToArray();
             string result = "";
-    
+
             foreach (string item in arr)
             {
                 result += item[0];
             }
-    
+
             Console.WriteLine(result);
         }
     }
