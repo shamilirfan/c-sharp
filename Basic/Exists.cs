@@ -12,9 +12,8 @@ class Exists
 
         bool exists1 = Array.Exists(numbers2, number => number == 5);
         bool exists2 = Array.Exists(numbers2, number => number == 6);
-        
+
         Console.WriteLine($"{exists1}");
         Console.WriteLine($"{exists2}");
-
     }
 }
