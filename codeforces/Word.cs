@@ -20,6 +20,5 @@ class Word
         {
             Console.WriteLine($"{s.ToLower()}");
         }
-
     }
 }

@@ -54,7 +54,5 @@ class YoungPhysicist
         {
             Console.WriteLine($"NO");
         }
-
-
     }
 }

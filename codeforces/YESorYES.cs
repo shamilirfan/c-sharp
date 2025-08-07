@@ -10,10 +10,20 @@ class YESorYES
         {
             string input2 = Console.ReadLine();
 
-            string a = input2 == "YES" || input2 == "yES" || input2 == "yes" || input2 == "Yes" || input2 == "YeS" || input2 == "YEs" || input2 == "YEs" || input2 == "yEs" || input2 == "yeS" ? "YES" : "NO";
+            string a =
+                input2 == "YES"
+                || input2 == "yES"
+                || input2 == "yes"
+                || input2 == "Yes"
+                || input2 == "YeS"
+                || input2 == "YEs"
+                || input2 == "YEs"
+                || input2 == "yEs"
+                || input2 == "yeS"
+                    ? "YES"
+                    : "NO";
 
             Console.WriteLine($"{a}");
         }
-
     }
 }

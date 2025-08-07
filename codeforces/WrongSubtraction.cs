@@ -7,7 +7,7 @@ class WrongSubtraction
 {
     public static void Main(string[] args)
     {
-        // A value's Last digit 0 or others digit, the rules of finding out that :-  
+        // A value's Last digit 0 or others digit, the rules of finding out that :-
         // n % 10 = 0 then last digit 0 else last digit not 0.
 
         string[] a = Console.ReadLine().Split(' ');
@@ -27,6 +27,5 @@ class WrongSubtraction
         }
 
         Console.WriteLine($"{b}");
-
     }
 }

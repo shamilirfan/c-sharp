@@ -7,7 +7,6 @@ class Twins
 {
     public static void Main(string[] args)
     {
-
         int a = int.Parse(Console.ReadLine());
         string[] b = Console.ReadLine().Split();
         int[] c = new int[a];
@@ -16,7 +15,6 @@ class Twins
         {
             c[i] = int.Parse(b[i]);
         }
-
 
         var d = c.OrderByDescending(a => a).ToArray();
         int e = d.Sum();
@@ -35,6 +33,5 @@ class Twins
                 break;
             }
         }
-
     }
 }
