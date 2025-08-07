@@ -79,7 +79,7 @@ class Taxi
             one -= 1;
         }
 
-        // extraOne 
+        // extraOne
         for (int i = one; i > 0; i -= 1)
         {
             if (one >= 4)
@@ -109,6 +109,5 @@ class Taxi
         }
 
         Console.WriteLine($"{one + two + three + four + extraOne + extraTwo}");
-
     }
 }

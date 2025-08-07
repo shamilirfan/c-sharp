@@ -22,6 +22,5 @@ class GravityFlip
         {
             Console.Write(item + " ");
         }
-
     }
 }

@@ -9,7 +9,8 @@ public class Solution
             dbl = margedArray[margedArray.Length / 2];
         else
         {
-            double a = margedArray[(margedArray.Length / 2) - 1] + margedArray[margedArray.Length / 2];
+            double a =
+                margedArray[(margedArray.Length / 2) - 1] + margedArray[margedArray.Length / 2];
             dbl = a / 2;
         }
 

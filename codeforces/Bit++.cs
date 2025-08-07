@@ -11,7 +11,7 @@ class Bit
         do
         {
             string input2 = Console.ReadLine();
-            
+
             if (input2 == "++X" || input2 == "X++")
             {
                 ++X;
@@ -22,7 +22,7 @@ class Bit
             }
             count++;
         } while (count <= input1);
-        
+
         Console.WriteLine(X);
     }
 }

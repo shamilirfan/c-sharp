@@ -8,6 +8,5 @@ class Football
 
         string a = input.Contains("1111111") || input.Contains("0000000") ? "YES" : "NO";
         Console.WriteLine($"{a}");
-        
     }
 }

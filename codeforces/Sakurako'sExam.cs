@@ -15,6 +15,5 @@ class SakurakosExam
             else
                 Console.WriteLine($"YES");
         }
-
     }
 }

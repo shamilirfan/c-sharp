@@ -6,10 +6,10 @@ class Start_EndWithMethod
     {
         var studentsArray = new[]
         {
-            new { roll = 1, name = "Topu", },
-            new { roll = 2, name = "Rupa", },
-            new { roll = 3, name = "Shagor", },
-            new { roll = 4, name = "Anika", }
+            new { roll = 1, name = "Topu" },
+            new { roll = 2, name = "Rupa" },
+            new { roll = 3, name = "Shagor" },
+            new { roll = 4, name = "Anika" },
         };
 
         var search1 = studentsArray.Where(a => a.name.StartsWith("T")).ToArray();

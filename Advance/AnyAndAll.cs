@@ -5,6 +5,7 @@ class Student
     public string? Name { get; set; }
     public string? City { get; set; }
     public int Age { get; set; }
+
     public Student(string Name, string City, int Age)
     {
         this.Name = Name;
@@ -12,16 +13,18 @@ class Student
         this.Age = Age;
     }
 }
+
 class AnyAndAll
 {
     public static void Main(string[] args)
     {
-        List<Student> students = new List<Student>{
-             new Student("Nowshin", "Dhaka", 26),
-             new Student("Himal", "Sylhet", 22),
-             new Student("Ripon", "Khulna", 46),
-             new Student("Alice", "Savar", 57),
-             new Student("Rumaly", "Comilla", 18)
+        List<Student> students = new List<Student>
+        {
+            new Student("Nowshin", "Dhaka", 26),
+            new Student("Himal", "Sylhet", 22),
+            new Student("Ripon", "Khulna", 46),
+            new Student("Alice", "Savar", 57),
+            new Student("Rumaly", "Comilla", 18),
         };
 
         bool adultStudents = students.All(a => a.Age >= 20);
@@ -32,7 +35,5 @@ class AnyAndAll
 
         bool contain = students.Select(a => a.Name).Contains("Alice");
         Console.WriteLine($"{contain}");
-
     }
 }
-

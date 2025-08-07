@@ -17,7 +17,7 @@ class Team
                 result++;
             }
         }
-        
+
         Console.WriteLine(result);
     }
 }

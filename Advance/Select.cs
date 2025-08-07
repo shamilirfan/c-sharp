@@ -14,11 +14,6 @@ class Select
             Console.Write($"{item} ");
         }
 
-
-
-
-
-
         string[] names = new string[5] { "rupa", "shiwly", "himal", "bob", "ripon" };
 
         var clNames = names.Select(a => Convert.ToString(a[0]).ToUpper() + a.Remove(0, 1));
@@ -27,11 +22,5 @@ class Select
         {
             Console.Write($"\n{item}");
         }
-
-
-
-
-
-
     }
 }

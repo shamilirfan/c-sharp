@@ -18,6 +18,5 @@ class BoyOrGirl
         {
             Console.WriteLine("IGNORE HIM!");
         }
-
     }
 }

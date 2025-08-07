@@ -44,7 +44,5 @@ class Games
         }
 
         Console.Write($"{result}");
-
-
     }
 }

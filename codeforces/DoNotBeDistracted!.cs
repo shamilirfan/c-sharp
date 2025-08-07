@@ -32,6 +32,5 @@ class DoNotBeDistracted
             else
                 Console.WriteLine($"NO");
         }
-
     }
 }

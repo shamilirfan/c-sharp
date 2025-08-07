@@ -25,7 +25,5 @@ class AntonAndDanik
         {
             Console.WriteLine($"Friendship");
         }
-
-
     }
 }

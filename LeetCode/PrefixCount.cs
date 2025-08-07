@@ -6,7 +6,8 @@ public class Solution
 
         for (int i = 0; i < words.Length; i++)
         {
-            if (words[i].StartsWith(pref)) result++;
+            if (words[i].StartsWith(pref))
+                result++;
         }
         return result;
     }

@@ -12,7 +12,8 @@ public class Solution
                 result = 1 + i;
                 break;
             }
-            else result = -1;
+            else
+                result = -1;
         }
         return result;
     }

@@ -27,7 +27,7 @@ class Tram
             sum += b[i];
         }
 
-        // 
+        //
         List<int> e = new List<int>();
         int x = 0;
         int y = 0;
@@ -55,6 +55,5 @@ class Tram
 
         // Result
         Console.Write($"{e.Max()}");
-
     }
 }

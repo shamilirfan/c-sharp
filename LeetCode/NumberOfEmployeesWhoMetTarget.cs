@@ -2,7 +2,8 @@ public class Solution
 {
     public int NumberOfEmployeesWhoMetTarget(int[] hours, int target)
     {
-        int count = 0, i;
+        int count = 0,
+            i;
 
         for (i = 0; i < hours.Length; i++)
         {

@@ -25,6 +25,5 @@ class Drinks
         }
 
         Console.WriteLine($"{sum / numbers.Length}");
-
     }
 }
