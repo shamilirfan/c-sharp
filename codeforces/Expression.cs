@@ -22,6 +22,5 @@ class Expression
         h[4] = i;
 
         Console.WriteLine(h.Max());
-
     }
 }

@@ -11,6 +11,5 @@ class Pangram
         var b = a.Count() == 26 ? "YES" : "NO";
 
         Console.WriteLine($"{b}");
-        
     }
 }

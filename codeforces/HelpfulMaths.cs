@@ -7,7 +7,6 @@ class HelpfulMaths
 {
     public static void Main(string[] args)
     {
-
         string a = Console.ReadLine().Replace("+", "");
         var b = a.OrderBy(x => x).ToArray();
         string c = "+";
@@ -24,6 +23,5 @@ class HelpfulMaths
 
             Console.Write($"{c}");
         }
-
     }
 }
